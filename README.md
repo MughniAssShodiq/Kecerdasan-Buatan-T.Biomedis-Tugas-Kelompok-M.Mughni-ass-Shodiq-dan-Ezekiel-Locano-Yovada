@@ -18,7 +18,7 @@
 | Nama | NIM | Username GitHub | Kontribusi utama |
 |---|---|---|---|
 | Ezekiel Locano Yovada | 123430019 | Ezekiel2506 | menjalankan eksperimen |
-| ✍️ | ✍️ | ✍️ | ✍️ |
+| M.Mughni Ass Shodiq | 123430059 | MughniAssHodiq | menjalankan eksperimen|
 | ✍️ | ✍️ | ✍️ | ✍️ |
 
 ## 1. Pertanyaan
