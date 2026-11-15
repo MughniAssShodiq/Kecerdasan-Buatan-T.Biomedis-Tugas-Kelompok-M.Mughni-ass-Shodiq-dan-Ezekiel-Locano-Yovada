@@ -19,7 +19,7 @@
 |---|---|---|---|
 | Ezekiel Locano Yovada | 123430019 | Ezekiel2506 | menjalankan eksperimen |
 | M.Mughni Ass Shodiq | 123430059 | MughniAssHodiq | menjalankan eksperimen|
-| ✍️ | ✍️ | ✍️ | ✍️ |
+| - | - | - | - |
 
 ## 1. Pertanyaan
 
@@ -30,9 +30,9 @@ Augmentasi apa yang membantu U-Net menemukan polip pada citra kolonoskopi, dan a
 <!-- Isi dari Bagian 2 notebook. Pastikan CEPAT = False untuk hasil akhir. -->
 
 - Dataset: Kvasir-SEG (1000 citra kolonoskopi + mask polip), diperkecil ke 128 × 128 piksel.
-- Data uji: 200 citra (tetap). Data latih: ✍️ citra per ulangan.
+- Data uji: 200 citra (tetap). Data latih: 250 citra per ulangan.
 - Model: U-Net mini (±0,5 juta parameter), ✍️ epoch, ✍️ ulangan per skenario.
-- Dijalankan di: ✍️ (misal: Google Colab T4 / laptop CPU / Mac M1).
+- Dijalankan di: Google Colab T4.
 
 ![Contoh data](hasil/contoh_data.png)
 
