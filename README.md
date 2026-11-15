@@ -17,7 +17,7 @@
 
 | Nama | NIM | Username GitHub | Kontribusi utama |
 |---|---|---|---|
-| ✍️ | ✍️ | ✍️ | ✍️ misal: menjalankan eksperimen, menulis Bagian 3 |
+| Ezekiel Locano Yovada | 123430019 | Ezekiel2506 | menjalankan eksperimen |
 | ✍️ | ✍️ | ✍️ | ✍️ |
 | ✍️ | ✍️ | ✍️ | ✍️ |
 
