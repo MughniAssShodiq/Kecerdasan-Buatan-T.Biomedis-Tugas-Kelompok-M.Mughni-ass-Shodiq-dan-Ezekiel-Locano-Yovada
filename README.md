@@ -81,7 +81,12 @@ Contoh augmentasi yang dicoba:
 
 <!-- Siapa mengerjakan apa. Penilaian proses kerja dilihat dari riwayat commit tiap anggota. -->
 
-✍️
+M.Mughni Ass Shodiq = Membuat REPO dan commit di Gitbash, karena laptop anggota 1 lagi C nya full jadi ga begitu bisa make git
+
+
+Ezekiel Locano Yovada = Yang menjalankan eksperimen, Ngerun Koding, milih augmentasi, hipotesis, sampai buat hasil
+
+untuk eksperimen itu kami belajar barengan lewat uji coba dan juga untuk Gitpull dan gitpush belajar dari panduan yang diberikan dan dibantu sedikit AI.
 
 ## 8. Penggunaan AI
 
@@ -89,7 +94,7 @@ Contoh augmentasi yang dicoba:
      Contoh: "Claude Code (CLI) untuk menulis skenario augmentasi dan memperbaiki error di Bagian 4.
      Draf Bagian 6 ditulis sendiri, lalu dirapikan bahasanya dengan bantuan AI." -->
 
-✍️
+Kami menggunakan AI untu membantu memehami saja, sempat nyoba CLI gemini di terminal cumin ga gitu ngerti cara kerjanya. Untuk kodingan kami memahami lewat nyobain 1 1 augmentasinya, dan pengaruh beberapa kode kalau diubah.
 
 ## Cara menjalankan ulang
 
