@@ -1,3 +1,6 @@
+<img width="1870" height="363" alt="augmentasi_kecerahan_dan_kontras" src="https://github.com/user-attachments/assets/102279e7-f17f-4640-b0b8-bb0eda81f6ab" />
+<img width="1870" height="363" alt="augmentasi_geser_dan_perbesaran" src="https://github.com/user-attachments/assets/f99a4e39-1812-49b0-9854-79117aa81cd7" />
+<img width="1920" height="816" alt="contoh_data" src="https://github.com/user-attachments/assets/96891cb9-136f-46aa-9e07-af7af20c10e3" />
 # Segmentasi Polip pada Citra Kolonoskopi dengan U-Net
 
 <!--
