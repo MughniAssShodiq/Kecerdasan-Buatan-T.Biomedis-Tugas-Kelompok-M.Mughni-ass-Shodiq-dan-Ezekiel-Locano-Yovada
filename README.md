@@ -1,6 +1,4 @@
-<img width="1870" height="363" alt="augmentasi_kecerahan_dan_kontras" src="https://github.com/user-attachments/assets/102279e7-f17f-4640-b0b8-bb0eda81f6ab" />
-<img width="1870" height="363" alt="augmentasi_geser_dan_perbesaran" src="https://github.com/user-attachments/assets/f99a4e39-1812-49b0-9854-79117aa81cd7" />
-<img width="1920" height="816" alt="contoh_data" src="https://github.com/user-attachments/assets/96891cb9-136f-46aa-9e07-af7af20c10e3" />
+
 # Segmentasi Polip pada Citra Kolonoskopi dengan U-Net
 
 <!--
@@ -37,7 +35,10 @@ Augmentasi apa yang membantu U-Net menemukan polip pada citra kolonoskopi, dan a
 - Model: U-Net mini (±0,5 juta parameter), 45 epoch, 5 ulangan per skenario.
 - Dijalankan di: Google Colab T4.
 
-![Contoh data](hasil/contoh_data.png)
+<img width="1870" height="363" alt="augmentasi_kecerahan_dan_kontras" src="https://github.com/user-attachments/assets/102279e7-f17f-4640-b0b8-bb0eda81f6ab" />
+<img width="1870" height="363" alt="augmentasi_geser_dan_perbesaran" src="https://github.com/user-attachments/assets/f99a4e39-1812-49b0-9854-79117aa81cd7" />
+<img width="1920" height="816" alt="contoh_data" src="https://github.com/user-attachments/assets/96891cb9-136f-46aa-9e07-af7af20c10e3" />
+
 
 ## 3. Skenario augmentasi & hipotesis
 
@@ -52,21 +53,26 @@ Augmentasi apa yang membantu U-Net menemukan polip pada citra kolonoskopi, dan a
 
 Contoh augmentasi yang dicoba:
 
-![Contoh augmentasi](hasil/augmentasi_flip.png)
+<img width="1870" height="363" alt="augmentasi_geser_dan_perbesaran" src="https://github.com/user-attachments/assets/e6620819-d9dc-4622-9807-c65ebbe16b00" />
+<img width="1870" height="363" alt="augmentasi_rotasi" src="https://github.com/user-attachments/assets/9fc6defb-2ebe-4b85-b99a-10d877cba0d1" />
+
+
 <!-- Ganti nama file sesuai skenario kalian (lihat isi folder hasil/). -->
 
 ## 4. Hasil
 
 <!-- Tempel isi hasil/ringkasan.md di sini. -->
 
-✍️ tempel tabel dari `hasil/ringkasan.md`
+<img width="792" height="504" alt="perbandingan" src="https://github.com/user-attachments/assets/26749b39-75a2-4501-8d5c-cb0623e00da8" />
+<img width="792" height="504" alt="perbandingan" src="https://github.com/user-attachments/assets/f4dca7bc-c331-4e2a-909f-46423b433ee2" />
 
-![Perbandingan Dice](hasil/perbandingan.png)
+
+
 
 ## 5. Analisis peta kesalahan
 
-![Peta kesalahan](hasil/peta_kesalahan.png)
-
+<img width="1595" height="1320" alt="peta_kesalahan" src="https://github.com/user-attachments/assets/a8127f18-83f7-4654-a2c1-0951ad2389df" />
+<img width="1595" height="1320" alt="peta_kesalahan" src="https://github.com/user-attachments/assets/1c51470d-301d-4a2a-ad7c-7a6e1eb8a81b" />
 <!-- Hijau = benar, merah = false positive, biru = false negative.
      Pertanyaan pemandu: Polip seperti apa yang sering terlewat (kecil? datar? warna mirip dinding usus?)
      Apa yang sering dikira polip padahal bukan? Apakah augmentasi memperbaiki kasus sulit? -->
