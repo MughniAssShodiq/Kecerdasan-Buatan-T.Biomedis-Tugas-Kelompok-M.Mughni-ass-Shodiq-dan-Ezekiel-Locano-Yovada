@@ -109,8 +109,8 @@ Oleh karena itu, pada konfigurasi eksperimen yang digunakan, model U-Net tanpa a
 
 <!-- Siapa mengerjakan apa. Penilaian proses kerja dilihat dari riwayat commit tiap anggota. -->
 
-M.Mughni Ass Shodiq = Membuat REPO dan commit di Gitbash, karena laptop anggota 1 lagi C nya full jadi ga begitu bisa make git
-
+M.Mughni Ass Shodiq = Membuat REPO dan commit di Gitbash
+Untuk commit kami hanya dilakukan disalah satu laptop pak, karena cli GitHub tidk bisa diinstall. sudah coba dari terminal dan juga installer tetap tidak bisa pak
 
 Ezekiel Locano Yovada = Yang menjalankan eksperimen, Ngerun Koding, milih augmentasi, hipotesis, sampai buat hasil
 
