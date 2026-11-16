@@ -73,18 +73,37 @@ Contoh augmentasi yang dicoba:
 
 <img width="1595" height="1320" alt="peta_kesalahan" src="https://github.com/user-attachments/assets/a8127f18-83f7-4654-a2c1-0951ad2389df" />
 <img width="1595" height="1320" alt="peta_kesalahan" src="https://github.com/user-attachments/assets/1c51470d-301d-4a2a-ad7c-7a6e1eb8a81b" />
+Polip berukuran kecil: Polip kecil memiliki area segmentasi yang terbatas sehingga mudah terlewat, terutama ketika resolusi citra rendah atau detail objek kurang terlihat.
+1. Polip datar (flat polyp): Polip ini memiliki permukaan yang relatif rata dan tidak terlalu menonjol dari dinding usus. Akibatnya, batas antara polip dan jaringan normal sulit dibedakan.
+2. Polip dengan warna menyerupai dinding usus: Kesamaan warna dan tekstur menyebabkan model kesulitan menentukan batas polip secara tepat.
+3. Polip dengan pencahayaan tidak merata: Pantulan cahaya, bayangan, dan kondisi permukaan mukosa dapat mengurangi kejelasan bentuk polip.
+   Dikira Polip padahal bukan
+   Lipatan usus (Mucosal Fold)
+   Gelembung udara dan lendir
+   Pantulan cahaya (Specular Reflection)
+   Sisa kotoran atau debris
 <!-- Hijau = benar, merah = false positive, biru = false negative.
      Pertanyaan pemandu: Polip seperti apa yang sering terlewat (kecil? datar? warna mirip dinding usus?)
      Apa yang sering dikira polip padahal bukan? Apakah augmentasi memperbaiki kasus sulit? -->
 
-✍️
-
 ## 6. Pembahasan & kesimpulan
+Pembahasan 
+Berdasarkan hasil eksperimen, augmentasi rotasi memberikan pengaruh yang relatif kecil terhadap performa U-Net. Nilai Dice yang hanya berbeda 0,002 dari model tanpa augmentasi menunjukkan bahwa rotasi belum memberikan perubahan berarti terhadap kemampuan segmentasi.
 
+Sementara itu, kombinasi augmentasi pergeseran dan pembesaran menunjukkan penurunan Dice yang lebih besar. Salah satu dugaan penyebabnya adalah perubahan posisi dan skala objek membuat karakteristik polip pada citra menjadi lebih sulit dipelajari oleh model. Selain itu, apabila proses pergeseran atau pembesaran menyebabkan bagian polip terpotong, informasi batas objek yang dibutuhkan dalam segmentasi dapat berkurang.
+
+Dengan demikian, hasil eksperimen ini memperlihatkan bahwa penerapan augmentasi perlu disesuaikan dengan karakteristik dataset dan objek yang akan disegmentasi. Augmentasi yang terlalu kuat atau kurang sesuai justru dapat mengurangi kualitas pembelajaran model.
+
+Kesimpulan 
+Berdasarkan hasil pengujian model U-Net untuk segmentasi polip pada citra kolonoskopi dengan jumlah dataset 1.000 data, 45 epoch, dan lima kali pengulangan, dapat disimpulkan bahwa penerapan augmentasi rotasi serta kombinasi pergeseran dan pembesaran belum memberikan peningkatan performa segmentasi.
+
+Model tanpa augmentasi memperoleh nilai Dice tertinggi sebesar 0,400, sedangkan augmentasi rotasi memperoleh nilai 0,398 dan kombinasi pergeseran serta pembesaran memperoleh nilai 0,358. Hasil tersebut menunjukkan bahwa augmentasi rotasi memberikan penurunan yang relatif kecil, sementara kombinasi pergeseran dan pembesaran memberikan penurunan yang lebih besar dibandingkan model tanpa augmentasi.
+
+Oleh karena itu, pada konfigurasi eksperimen yang digunakan, model U-Net tanpa augmentasi menunjukkan hasil segmentasi terbaik. Hal ini menunjukkan bahwa augmentasi data tidak selalu meningkatkan performa model, karena efektivitasnya dipengaruhi oleh karakteristik dataset dan parameter augmentasi yang digunakan. Diperlukan pengujian lanjutan dengan variasi parameter augmentasi untuk mengetahui konfigurasi yang lebih optimal dalam meningkatkan nilai Dice Coefficient.
 <!-- Bandingkan hasil dengan hipotesis di Bagian 3. Hipotesis yang ternyata salah tetap bernilai,
      asalkan dijelaskan kenapa. Perbedaan kecil (lebih kecil dari simpangan baku) belum tentu berarti. -->
 
-✍️
+
 
 ## 7. Pembagian kerja
 
